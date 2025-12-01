@@ -9,6 +9,18 @@ public class Principal {
         boolean incluidoNoPlano = false; // Diz se está incluido no pláno.
         Double notaDoFilme = 8.0;// Nota do filme, usamos o Double => Ponto flutuante.
 
+        double media = (9.0 + 8.0 + 3.0)/3;
+        System.out.println(media);
+
+        // Formatação com String block
+        String sinopse = """
+                Filme: Top Gun
+                Filme de ação estrelado por Ton Cruise.
+                Muito bom!
+                Ano de lançamento
+                """ + anoDeLancamento;
+        System.out.println(sinopse);
+
 
 
 
